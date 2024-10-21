@@ -1,0 +1,54 @@
+#header {
+
+  max-width: 80rem;
+  & nav {
+    justify-content: space-between;
+    padding-block: 1.25rem;
+
+    & img[src*="logo"] {
+      transition: .5s;
+      transform: rotate(0deg);
+      
+      &:hover {
+        transition: .5s;
+        transform: rotate(-90deg);
+      }
+    }
+
+    & .bag {
+      position: relative;
+
+      & img[src*="bag"] {
+        width: 2rem;
+        height: 2rem;
+
+        transition: .5s;
+        transform: rotate(0deg);
+        
+        &:hover {
+          transition: .5s;
+          transform: rotate(-30deg);
+        }
+      }
+
+      &::after {
+        content: "1";
+        width: 1.25rem;
+        height: 1.25rem;
+
+        position: absolute;
+        right: -.5rem;
+        top: -.5rem;
+
+        
+        font: 500 .75rem/1.3 var(--font-mont);
+        background: var(--snitap-sun);
+        border-radius: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

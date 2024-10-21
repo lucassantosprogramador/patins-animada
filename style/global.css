@@ -1,0 +1,62 @@
+:root {
+  --snitap-sun: #FFCD1E;
+  --snitap-sky-mid: #06B6D4;
+  --snitap-sky-light: #67e8f9;
+  --snitap-joy-mid: #db2777;
+  --snitap-joy-light: #f372b6;
+  --snitap-leaf-mid: #16a34a;
+
+  --text: #000000;
+  --highlights: #000000;
+  --background: #FAFAFA;
+
+  --font-syne: "Syne", sans-serif;
+  --font-mont: "Montserrat", sans-serif;
+
+  --h1: 800 4rem/1.5 var(--font-syne);
+  --h2: 800 2.5rem/1.2 var(--font-syne);
+
+  --font-btn: 500 1rem/1.5 var(--font-mont);
+  --font-span: 500 .875rem/1.5 var(--font-mont);
+
+  --text-sm: .875rem;
+  --text-base: 1rem;
+  --text-lg: 2.5rem;
+  --text-xl: 4rem;
+}
+
+*, *::before, *::after {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, button {
+  font: 500 1rem/1.5 var(--font-mont);
+}
+
+.container {
+  padding-inline: 2rem;
+  margin-inline: auto;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+h1, h2 {
+  font-family: var(--font-syne);
+}
+
+h1 {
+  font-size: var(--text-xl);
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: var(--text-lg);
+  line-height: 1.2;
+}
+
+
+

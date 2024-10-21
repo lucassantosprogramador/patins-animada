@@ -1,0 +1,19 @@
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-sm {
+  gap: .5rem;
+}
+
+.gap-base {
+  gap: 1rem;
+}
+
+.gap-lg {
+  gap: 2rem;
+}
